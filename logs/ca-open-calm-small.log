@@ -1,0 +1,197 @@
+{'dim': 768, '_name_or_path': 'open-calm-small', 'architectures': ['GPTNeoXForCausalLM'], 'bos_token_id': 0, 'eos_token_id': 0, 'hidden_act': 'gelu', 'hidden_size': 768, 'initializer_range': 0.02, 'intermediate_size': 3072, 'layer_norm_eps': 1e-05, 'max_position_embeddings': 2048, 'model_type': 'gpt_neox', 'num_attention_heads': 12, 'num_hidden_layers': 12, 'rotary_emb_base': 10000, 'rotary_pct': 1.0, 'tie_word_embeddings': False, 'torch_dtype': 'float16', 'transformers_version': '4.27.0.dev0', 'use_cache': True, 'use_parallel_residual': False, 'vocab_size': 52096}
+000: consolidated.00.pth
+
+-----------------------------------------------------------------------------
+0 params in total.
+0 bytes in total.
+-----------------------------------------------------------------------------
+
+[1/1]: Loading consolidated.00.pth
+   0 :   40009728 : gpt_neox.embed_in.weight            : [52096, 768]    : torch.float16
+   1 :        768 : gpt_neox.layers.0.input_layernorm.weight : [768]           : torch.float16
+   2 :        768 : gpt_neox.layers.0.input_layernorm.bias : [768]           : torch.float16
+   3 :        768 : gpt_neox.layers.0.post_attention_layernorm.weight : [768]           : torch.float16
+   4 :        768 : gpt_neox.layers.0.post_attention_layernorm.bias : [768]           : torch.float16
+   5 :    4194304 : gpt_neox.layers.0.attention.bias    : [1, 1, 2048, 2048] : torch.uint8
+   6 :          1 : gpt_neox.layers.0.attention.masked_bias : []              : torch.float16
+   7 :         32 : gpt_neox.layers.0.attention.rotary_emb.inv_freq : [32]            : torch.float32
+   8 :    1769472 : gpt_neox.layers.0.attention.query_key_value.weight : [2304, 768]     : torch.float16
+   9 :       2304 : gpt_neox.layers.0.attention.query_key_value.bias : [2304]          : torch.float16
+  10 :     589824 : gpt_neox.layers.0.attention.dense.weight : [768, 768]      : torch.float16
+  11 :        768 : gpt_neox.layers.0.attention.dense.bias : [768]           : torch.float16
+  12 :    2359296 : gpt_neox.layers.0.mlp.dense_h_to_4h.weight : [3072, 768]     : torch.float16
+  13 :       3072 : gpt_neox.layers.0.mlp.dense_h_to_4h.bias : [3072]          : torch.float16
+  14 :    2359296 : gpt_neox.layers.0.mlp.dense_4h_to_h.weight : [768, 3072]     : torch.float16
+  15 :        768 : gpt_neox.layers.0.mlp.dense_4h_to_h.bias : [768]           : torch.float16
+  16 :        768 : gpt_neox.layers.1.input_layernorm.weight : [768]           : torch.float16
+  17 :        768 : gpt_neox.layers.1.input_layernorm.bias : [768]           : torch.float16
+  18 :        768 : gpt_neox.layers.1.post_attention_layernorm.weight : [768]           : torch.float16
+  19 :        768 : gpt_neox.layers.1.post_attention_layernorm.bias : [768]           : torch.float16
+  20 :    4194304 : gpt_neox.layers.1.attention.bias    : [1, 1, 2048, 2048] : torch.uint8
+  21 :          1 : gpt_neox.layers.1.attention.masked_bias : []              : torch.float16
+  22 :         32 : gpt_neox.layers.1.attention.rotary_emb.inv_freq : [32]            : torch.float32
+  23 :    1769472 : gpt_neox.layers.1.attention.query_key_value.weight : [2304, 768]     : torch.float16
+  24 :       2304 : gpt_neox.layers.1.attention.query_key_value.bias : [2304]          : torch.float16
+  25 :     589824 : gpt_neox.layers.1.attention.dense.weight : [768, 768]      : torch.float16
+  26 :        768 : gpt_neox.layers.1.attention.dense.bias : [768]           : torch.float16
+  27 :    2359296 : gpt_neox.layers.1.mlp.dense_h_to_4h.weight : [3072, 768]     : torch.float16
+  28 :       3072 : gpt_neox.layers.1.mlp.dense_h_to_4h.bias : [3072]          : torch.float16
+  29 :    2359296 : gpt_neox.layers.1.mlp.dense_4h_to_h.weight : [768, 3072]     : torch.float16
+  30 :        768 : gpt_neox.layers.1.mlp.dense_4h_to_h.bias : [768]           : torch.float16
+  31 :        768 : gpt_neox.layers.2.input_layernorm.weight : [768]           : torch.float16
+  32 :        768 : gpt_neox.layers.2.input_layernorm.bias : [768]           : torch.float16
+  33 :        768 : gpt_neox.layers.2.post_attention_layernorm.weight : [768]           : torch.float16
+  34 :        768 : gpt_neox.layers.2.post_attention_layernorm.bias : [768]           : torch.float16
+  35 :    4194304 : gpt_neox.layers.2.attention.bias    : [1, 1, 2048, 2048] : torch.uint8
+  36 :          1 : gpt_neox.layers.2.attention.masked_bias : []              : torch.float16
+  37 :         32 : gpt_neox.layers.2.attention.rotary_emb.inv_freq : [32]            : torch.float32
+  38 :    1769472 : gpt_neox.layers.2.attention.query_key_value.weight : [2304, 768]     : torch.float16
+  39 :       2304 : gpt_neox.layers.2.attention.query_key_value.bias : [2304]          : torch.float16
+  40 :     589824 : gpt_neox.layers.2.attention.dense.weight : [768, 768]      : torch.float16
+  41 :        768 : gpt_neox.layers.2.attention.dense.bias : [768]           : torch.float16
+  42 :    2359296 : gpt_neox.layers.2.mlp.dense_h_to_4h.weight : [3072, 768]     : torch.float16
+  43 :       3072 : gpt_neox.layers.2.mlp.dense_h_to_4h.bias : [3072]          : torch.float16
+  44 :    2359296 : gpt_neox.layers.2.mlp.dense_4h_to_h.weight : [768, 3072]     : torch.float16
+  45 :        768 : gpt_neox.layers.2.mlp.dense_4h_to_h.bias : [768]           : torch.float16
+  46 :        768 : gpt_neox.layers.3.input_layernorm.weight : [768]           : torch.float16
+  47 :        768 : gpt_neox.layers.3.input_layernorm.bias : [768]           : torch.float16
+  48 :        768 : gpt_neox.layers.3.post_attention_layernorm.weight : [768]           : torch.float16
+  49 :        768 : gpt_neox.layers.3.post_attention_layernorm.bias : [768]           : torch.float16
+  50 :    4194304 : gpt_neox.layers.3.attention.bias    : [1, 1, 2048, 2048] : torch.uint8
+  51 :          1 : gpt_neox.layers.3.attention.masked_bias : []              : torch.float16
+  52 :         32 : gpt_neox.layers.3.attention.rotary_emb.inv_freq : [32]            : torch.float32
+  53 :    1769472 : gpt_neox.layers.3.attention.query_key_value.weight : [2304, 768]     : torch.float16
+  54 :       2304 : gpt_neox.layers.3.attention.query_key_value.bias : [2304]          : torch.float16
+  55 :     589824 : gpt_neox.layers.3.attention.dense.weight : [768, 768]      : torch.float16
+  56 :        768 : gpt_neox.layers.3.attention.dense.bias : [768]           : torch.float16
+  57 :    2359296 : gpt_neox.layers.3.mlp.dense_h_to_4h.weight : [3072, 768]     : torch.float16
+  58 :       3072 : gpt_neox.layers.3.mlp.dense_h_to_4h.bias : [3072]          : torch.float16
+  59 :    2359296 : gpt_neox.layers.3.mlp.dense_4h_to_h.weight : [768, 3072]     : torch.float16
+  60 :        768 : gpt_neox.layers.3.mlp.dense_4h_to_h.bias : [768]           : torch.float16
+  61 :        768 : gpt_neox.layers.4.input_layernorm.weight : [768]           : torch.float16
+  62 :        768 : gpt_neox.layers.4.input_layernorm.bias : [768]           : torch.float16
+  63 :        768 : gpt_neox.layers.4.post_attention_layernorm.weight : [768]           : torch.float16
+  64 :        768 : gpt_neox.layers.4.post_attention_layernorm.bias : [768]           : torch.float16
+  65 :    4194304 : gpt_neox.layers.4.attention.bias    : [1, 1, 2048, 2048] : torch.uint8
+  66 :          1 : gpt_neox.layers.4.attention.masked_bias : []              : torch.float16
+  67 :         32 : gpt_neox.layers.4.attention.rotary_emb.inv_freq : [32]            : torch.float32
+  68 :    1769472 : gpt_neox.layers.4.attention.query_key_value.weight : [2304, 768]     : torch.float16
+  69 :       2304 : gpt_neox.layers.4.attention.query_key_value.bias : [2304]          : torch.float16
+  70 :     589824 : gpt_neox.layers.4.attention.dense.weight : [768, 768]      : torch.float16
+  71 :        768 : gpt_neox.layers.4.attention.dense.bias : [768]           : torch.float16
+  72 :    2359296 : gpt_neox.layers.4.mlp.dense_h_to_4h.weight : [3072, 768]     : torch.float16
+  73 :       3072 : gpt_neox.layers.4.mlp.dense_h_to_4h.bias : [3072]          : torch.float16
+  74 :    2359296 : gpt_neox.layers.4.mlp.dense_4h_to_h.weight : [768, 3072]     : torch.float16
+  75 :        768 : gpt_neox.layers.4.mlp.dense_4h_to_h.bias : [768]           : torch.float16
+  76 :        768 : gpt_neox.layers.5.input_layernorm.weight : [768]           : torch.float16
+  77 :        768 : gpt_neox.layers.5.input_layernorm.bias : [768]           : torch.float16
+  78 :        768 : gpt_neox.layers.5.post_attention_layernorm.weight : [768]           : torch.float16
+  79 :        768 : gpt_neox.layers.5.post_attention_layernorm.bias : [768]           : torch.float16
+  80 :    4194304 : gpt_neox.layers.5.attention.bias    : [1, 1, 2048, 2048] : torch.uint8
+  81 :          1 : gpt_neox.layers.5.attention.masked_bias : []              : torch.float16
+  82 :         32 : gpt_neox.layers.5.attention.rotary_emb.inv_freq : [32]            : torch.float32
+  83 :    1769472 : gpt_neox.layers.5.attention.query_key_value.weight : [2304, 768]     : torch.float16
+  84 :       2304 : gpt_neox.layers.5.attention.query_key_value.bias : [2304]          : torch.float16
+  85 :     589824 : gpt_neox.layers.5.attention.dense.weight : [768, 768]      : torch.float16
+  86 :        768 : gpt_neox.layers.5.attention.dense.bias : [768]           : torch.float16
+  87 :    2359296 : gpt_neox.layers.5.mlp.dense_h_to_4h.weight : [3072, 768]     : torch.float16
+  88 :       3072 : gpt_neox.layers.5.mlp.dense_h_to_4h.bias : [3072]          : torch.float16
+  89 :    2359296 : gpt_neox.layers.5.mlp.dense_4h_to_h.weight : [768, 3072]     : torch.float16
+  90 :        768 : gpt_neox.layers.5.mlp.dense_4h_to_h.bias : [768]           : torch.float16
+  91 :        768 : gpt_neox.layers.6.input_layernorm.weight : [768]           : torch.float16
+  92 :        768 : gpt_neox.layers.6.input_layernorm.bias : [768]           : torch.float16
+  93 :        768 : gpt_neox.layers.6.post_attention_layernorm.weight : [768]           : torch.float16
+  94 :        768 : gpt_neox.layers.6.post_attention_layernorm.bias : [768]           : torch.float16
+  95 :    4194304 : gpt_neox.layers.6.attention.bias    : [1, 1, 2048, 2048] : torch.uint8
+  96 :          1 : gpt_neox.layers.6.attention.masked_bias : []              : torch.float16
+  97 :         32 : gpt_neox.layers.6.attention.rotary_emb.inv_freq : [32]            : torch.float32
+  98 :    1769472 : gpt_neox.layers.6.attention.query_key_value.weight : [2304, 768]     : torch.float16
+  99 :       2304 : gpt_neox.layers.6.attention.query_key_value.bias : [2304]          : torch.float16
+ 100 :     589824 : gpt_neox.layers.6.attention.dense.weight : [768, 768]      : torch.float16
+ 101 :        768 : gpt_neox.layers.6.attention.dense.bias : [768]           : torch.float16
+ 102 :    2359296 : gpt_neox.layers.6.mlp.dense_h_to_4h.weight : [3072, 768]     : torch.float16
+ 103 :       3072 : gpt_neox.layers.6.mlp.dense_h_to_4h.bias : [3072]          : torch.float16
+ 104 :    2359296 : gpt_neox.layers.6.mlp.dense_4h_to_h.weight : [768, 3072]     : torch.float16
+ 105 :        768 : gpt_neox.layers.6.mlp.dense_4h_to_h.bias : [768]           : torch.float16
+ 106 :        768 : gpt_neox.layers.7.input_layernorm.weight : [768]           : torch.float16
+ 107 :        768 : gpt_neox.layers.7.input_layernorm.bias : [768]           : torch.float16
+ 108 :        768 : gpt_neox.layers.7.post_attention_layernorm.weight : [768]           : torch.float16
+ 109 :        768 : gpt_neox.layers.7.post_attention_layernorm.bias : [768]           : torch.float16
+ 110 :    4194304 : gpt_neox.layers.7.attention.bias    : [1, 1, 2048, 2048] : torch.uint8
+ 111 :          1 : gpt_neox.layers.7.attention.masked_bias : []              : torch.float16
+ 112 :         32 : gpt_neox.layers.7.attention.rotary_emb.inv_freq : [32]            : torch.float32
+ 113 :    1769472 : gpt_neox.layers.7.attention.query_key_value.weight : [2304, 768]     : torch.float16
+ 114 :       2304 : gpt_neox.layers.7.attention.query_key_value.bias : [2304]          : torch.float16
+ 115 :     589824 : gpt_neox.layers.7.attention.dense.weight : [768, 768]      : torch.float16
+ 116 :        768 : gpt_neox.layers.7.attention.dense.bias : [768]           : torch.float16
+ 117 :    2359296 : gpt_neox.layers.7.mlp.dense_h_to_4h.weight : [3072, 768]     : torch.float16
+ 118 :       3072 : gpt_neox.layers.7.mlp.dense_h_to_4h.bias : [3072]          : torch.float16
+ 119 :    2359296 : gpt_neox.layers.7.mlp.dense_4h_to_h.weight : [768, 3072]     : torch.float16
+ 120 :        768 : gpt_neox.layers.7.mlp.dense_4h_to_h.bias : [768]           : torch.float16
+ 121 :        768 : gpt_neox.layers.8.input_layernorm.weight : [768]           : torch.float16
+ 122 :        768 : gpt_neox.layers.8.input_layernorm.bias : [768]           : torch.float16
+ 123 :        768 : gpt_neox.layers.8.post_attention_layernorm.weight : [768]           : torch.float16
+ 124 :        768 : gpt_neox.layers.8.post_attention_layernorm.bias : [768]           : torch.float16
+ 125 :    4194304 : gpt_neox.layers.8.attention.bias    : [1, 1, 2048, 2048] : torch.uint8
+ 126 :          1 : gpt_neox.layers.8.attention.masked_bias : []              : torch.float16
+ 127 :         32 : gpt_neox.layers.8.attention.rotary_emb.inv_freq : [32]            : torch.float32
+ 128 :    1769472 : gpt_neox.layers.8.attention.query_key_value.weight : [2304, 768]     : torch.float16
+ 129 :       2304 : gpt_neox.layers.8.attention.query_key_value.bias : [2304]          : torch.float16
+ 130 :     589824 : gpt_neox.layers.8.attention.dense.weight : [768, 768]      : torch.float16
+ 131 :        768 : gpt_neox.layers.8.attention.dense.bias : [768]           : torch.float16
+ 132 :    2359296 : gpt_neox.layers.8.mlp.dense_h_to_4h.weight : [3072, 768]     : torch.float16
+ 133 :       3072 : gpt_neox.layers.8.mlp.dense_h_to_4h.bias : [3072]          : torch.float16
+ 134 :    2359296 : gpt_neox.layers.8.mlp.dense_4h_to_h.weight : [768, 3072]     : torch.float16
+ 135 :        768 : gpt_neox.layers.8.mlp.dense_4h_to_h.bias : [768]           : torch.float16
+ 136 :        768 : gpt_neox.layers.9.input_layernorm.weight : [768]           : torch.float16
+ 137 :        768 : gpt_neox.layers.9.input_layernorm.bias : [768]           : torch.float16
+ 138 :        768 : gpt_neox.layers.9.post_attention_layernorm.weight : [768]           : torch.float16
+ 139 :        768 : gpt_neox.layers.9.post_attention_layernorm.bias : [768]           : torch.float16
+ 140 :    4194304 : gpt_neox.layers.9.attention.bias    : [1, 1, 2048, 2048] : torch.uint8
+ 141 :          1 : gpt_neox.layers.9.attention.masked_bias : []              : torch.float16
+ 142 :         32 : gpt_neox.layers.9.attention.rotary_emb.inv_freq : [32]            : torch.float32
+ 143 :    1769472 : gpt_neox.layers.9.attention.query_key_value.weight : [2304, 768]     : torch.float16
+ 144 :       2304 : gpt_neox.layers.9.attention.query_key_value.bias : [2304]          : torch.float16
+ 145 :     589824 : gpt_neox.layers.9.attention.dense.weight : [768, 768]      : torch.float16
+ 146 :        768 : gpt_neox.layers.9.attention.dense.bias : [768]           : torch.float16
+ 147 :    2359296 : gpt_neox.layers.9.mlp.dense_h_to_4h.weight : [3072, 768]     : torch.float16
+ 148 :       3072 : gpt_neox.layers.9.mlp.dense_h_to_4h.bias : [3072]          : torch.float16
+ 149 :    2359296 : gpt_neox.layers.9.mlp.dense_4h_to_h.weight : [768, 3072]     : torch.float16
+ 150 :        768 : gpt_neox.layers.9.mlp.dense_4h_to_h.bias : [768]           : torch.float16
+ 151 :        768 : gpt_neox.layers.10.input_layernorm.weight : [768]           : torch.float16
+ 152 :        768 : gpt_neox.layers.10.input_layernorm.bias : [768]           : torch.float16
+ 153 :        768 : gpt_neox.layers.10.post_attention_layernorm.weight : [768]           : torch.float16
+ 154 :        768 : gpt_neox.layers.10.post_attention_layernorm.bias : [768]           : torch.float16
+ 155 :    4194304 : gpt_neox.layers.10.attention.bias   : [1, 1, 2048, 2048] : torch.uint8
+ 156 :          1 : gpt_neox.layers.10.attention.masked_bias : []              : torch.float16
+ 157 :         32 : gpt_neox.layers.10.attention.rotary_emb.inv_freq : [32]            : torch.float32
+ 158 :    1769472 : gpt_neox.layers.10.attention.query_key_value.weight : [2304, 768]     : torch.float16
+ 159 :       2304 : gpt_neox.layers.10.attention.query_key_value.bias : [2304]          : torch.float16
+ 160 :     589824 : gpt_neox.layers.10.attention.dense.weight : [768, 768]      : torch.float16
+ 161 :        768 : gpt_neox.layers.10.attention.dense.bias : [768]           : torch.float16
+ 162 :    2359296 : gpt_neox.layers.10.mlp.dense_h_to_4h.weight : [3072, 768]     : torch.float16
+ 163 :       3072 : gpt_neox.layers.10.mlp.dense_h_to_4h.bias : [3072]          : torch.float16
+ 164 :    2359296 : gpt_neox.layers.10.mlp.dense_4h_to_h.weight : [768, 3072]     : torch.float16
+ 165 :        768 : gpt_neox.layers.10.mlp.dense_4h_to_h.bias : [768]           : torch.float16
+ 166 :        768 : gpt_neox.layers.11.input_layernorm.weight : [768]           : torch.float16
+ 167 :        768 : gpt_neox.layers.11.input_layernorm.bias : [768]           : torch.float16
+ 168 :        768 : gpt_neox.layers.11.post_attention_layernorm.weight : [768]           : torch.float16
+ 169 :        768 : gpt_neox.layers.11.post_attention_layernorm.bias : [768]           : torch.float16
+ 170 :    4194304 : gpt_neox.layers.11.attention.bias   : [1, 1, 2048, 2048] : torch.uint8
+ 171 :          1 : gpt_neox.layers.11.attention.masked_bias : []              : torch.float16
+ 172 :         32 : gpt_neox.layers.11.attention.rotary_emb.inv_freq : [32]            : torch.float32
+ 173 :    1769472 : gpt_neox.layers.11.attention.query_key_value.weight : [2304, 768]     : torch.float16
+ 174 :       2304 : gpt_neox.layers.11.attention.query_key_value.bias : [2304]          : torch.float16
+ 175 :     589824 : gpt_neox.layers.11.attention.dense.weight : [768, 768]      : torch.float16
+ 176 :        768 : gpt_neox.layers.11.attention.dense.bias : [768]           : torch.float16
+ 177 :    2359296 : gpt_neox.layers.11.mlp.dense_h_to_4h.weight : [3072, 768]     : torch.float16
+ 178 :       3072 : gpt_neox.layers.11.mlp.dense_h_to_4h.bias : [3072]          : torch.float16
+ 179 :    2359296 : gpt_neox.layers.11.mlp.dense_4h_to_h.weight : [768, 3072]     : torch.float16
+ 180 :        768 : gpt_neox.layers.11.mlp.dense_4h_to_h.bias : [768]           : torch.float16
+ 181 :        768 : gpt_neox.final_layer_norm.weight    : [768]           : torch.float16
+ 182 :        768 : gpt_neox.final_layer_norm.bias      : [768]           : torch.float16
+ 183 :   40009728 : embed_out.weight                    : [52096, 768]    : torch.float16
+Total number of parameters: 215407500
+0.2154 B
+380484120 Bytes
+0.3544 GB
