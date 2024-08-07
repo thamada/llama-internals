@@ -1,0 +1,304 @@
+{'dim': 4096, 'ffn_dim_multiplier': 1.3, 'multiple_of': 1024, 'n_heads': 32, 'n_kv_heads': 8, 'n_layers': 32, 'norm_eps': 1e-05, 'rope_theta': 500000.0, 'use_scaled_rope': True, 'vocab_size': 128256}
+000: /mnt/models/Llama3.1-8b/models--meta-llama--Meta-Llama-3.1-8B/snapshots/48d6d0fc4e02fb1269b36940650a1b7233035cbb/original/consolidated.00.pth
+
+-----------------------------------------------------------------------------
+0 params in total.
+0 bytes in total.
+-----------------------------------------------------------------------------
+
+[1/1]: Loading /mnt/models/Llama3.1-8b/models--meta-llama--Meta-Llama-3.1-8B/snapshots/48d6d0fc4e02fb1269b36940650a1b7233035cbb/original/consolidated.00.pth
+   0 :  525336576 : tok_embeddings.weight               : [128256, 4096]  : torch.bfloat16
+   1 :   16777216 : layers.0.attention.wq.weight        : [4096, 4096]    : torch.bfloat16
+   2 :    4194304 : layers.0.attention.wk.weight        : [1024, 4096]    : torch.bfloat16
+   3 :    4194304 : layers.0.attention.wv.weight        : [1024, 4096]    : torch.bfloat16
+   4 :   16777216 : layers.0.attention.wo.weight        : [4096, 4096]    : torch.bfloat16
+   5 :   58720256 : layers.0.feed_forward.w1.weight     : [14336, 4096]   : torch.bfloat16
+   6 :   58720256 : layers.0.feed_forward.w3.weight     : [14336, 4096]   : torch.bfloat16
+   7 :   58720256 : layers.0.feed_forward.w2.weight     : [4096, 14336]   : torch.bfloat16
+   8 :       4096 : layers.0.attention_norm.weight      : [4096]          : torch.bfloat16
+   9 :       4096 : layers.0.ffn_norm.weight            : [4096]          : torch.bfloat16
+  10 :   16777216 : layers.1.attention.wq.weight        : [4096, 4096]    : torch.bfloat16
+  11 :    4194304 : layers.1.attention.wk.weight        : [1024, 4096]    : torch.bfloat16
+  12 :    4194304 : layers.1.attention.wv.weight        : [1024, 4096]    : torch.bfloat16
+  13 :   16777216 : layers.1.attention.wo.weight        : [4096, 4096]    : torch.bfloat16
+  14 :   58720256 : layers.1.feed_forward.w1.weight     : [14336, 4096]   : torch.bfloat16
+  15 :   58720256 : layers.1.feed_forward.w3.weight     : [14336, 4096]   : torch.bfloat16
+  16 :   58720256 : layers.1.feed_forward.w2.weight     : [4096, 14336]   : torch.bfloat16
+  17 :       4096 : layers.1.attention_norm.weight      : [4096]          : torch.bfloat16
+  18 :       4096 : layers.1.ffn_norm.weight            : [4096]          : torch.bfloat16
+  19 :   16777216 : layers.2.attention.wq.weight        : [4096, 4096]    : torch.bfloat16
+  20 :    4194304 : layers.2.attention.wk.weight        : [1024, 4096]    : torch.bfloat16
+  21 :    4194304 : layers.2.attention.wv.weight        : [1024, 4096]    : torch.bfloat16
+  22 :   16777216 : layers.2.attention.wo.weight        : [4096, 4096]    : torch.bfloat16
+  23 :   58720256 : layers.2.feed_forward.w1.weight     : [14336, 4096]   : torch.bfloat16
+  24 :   58720256 : layers.2.feed_forward.w3.weight     : [14336, 4096]   : torch.bfloat16
+  25 :   58720256 : layers.2.feed_forward.w2.weight     : [4096, 14336]   : torch.bfloat16
+  26 :       4096 : layers.2.attention_norm.weight      : [4096]          : torch.bfloat16
+  27 :       4096 : layers.2.ffn_norm.weight            : [4096]          : torch.bfloat16
+  28 :   16777216 : layers.3.attention.wq.weight        : [4096, 4096]    : torch.bfloat16
+  29 :    4194304 : layers.3.attention.wk.weight        : [1024, 4096]    : torch.bfloat16
+  30 :    4194304 : layers.3.attention.wv.weight        : [1024, 4096]    : torch.bfloat16
+  31 :   16777216 : layers.3.attention.wo.weight        : [4096, 4096]    : torch.bfloat16
+  32 :   58720256 : layers.3.feed_forward.w1.weight     : [14336, 4096]   : torch.bfloat16
+  33 :   58720256 : layers.3.feed_forward.w3.weight     : [14336, 4096]   : torch.bfloat16
+  34 :   58720256 : layers.3.feed_forward.w2.weight     : [4096, 14336]   : torch.bfloat16
+  35 :       4096 : layers.3.attention_norm.weight      : [4096]          : torch.bfloat16
+  36 :       4096 : layers.3.ffn_norm.weight            : [4096]          : torch.bfloat16
+  37 :   16777216 : layers.4.attention.wq.weight        : [4096, 4096]    : torch.bfloat16
+  38 :    4194304 : layers.4.attention.wk.weight        : [1024, 4096]    : torch.bfloat16
+  39 :    4194304 : layers.4.attention.wv.weight        : [1024, 4096]    : torch.bfloat16
+  40 :   16777216 : layers.4.attention.wo.weight        : [4096, 4096]    : torch.bfloat16
+  41 :   58720256 : layers.4.feed_forward.w1.weight     : [14336, 4096]   : torch.bfloat16
+  42 :   58720256 : layers.4.feed_forward.w3.weight     : [14336, 4096]   : torch.bfloat16
+  43 :   58720256 : layers.4.feed_forward.w2.weight     : [4096, 14336]   : torch.bfloat16
+  44 :       4096 : layers.4.attention_norm.weight      : [4096]          : torch.bfloat16
+  45 :       4096 : layers.4.ffn_norm.weight            : [4096]          : torch.bfloat16
+  46 :   16777216 : layers.5.attention.wq.weight        : [4096, 4096]    : torch.bfloat16
+  47 :    4194304 : layers.5.attention.wk.weight        : [1024, 4096]    : torch.bfloat16
+  48 :    4194304 : layers.5.attention.wv.weight        : [1024, 4096]    : torch.bfloat16
+  49 :   16777216 : layers.5.attention.wo.weight        : [4096, 4096]    : torch.bfloat16
+  50 :   58720256 : layers.5.feed_forward.w1.weight     : [14336, 4096]   : torch.bfloat16
+  51 :   58720256 : layers.5.feed_forward.w3.weight     : [14336, 4096]   : torch.bfloat16
+  52 :   58720256 : layers.5.feed_forward.w2.weight     : [4096, 14336]   : torch.bfloat16
+  53 :       4096 : layers.5.attention_norm.weight      : [4096]          : torch.bfloat16
+  54 :       4096 : layers.5.ffn_norm.weight            : [4096]          : torch.bfloat16
+  55 :   16777216 : layers.6.attention.wq.weight        : [4096, 4096]    : torch.bfloat16
+  56 :    4194304 : layers.6.attention.wk.weight        : [1024, 4096]    : torch.bfloat16
+  57 :    4194304 : layers.6.attention.wv.weight        : [1024, 4096]    : torch.bfloat16
+  58 :   16777216 : layers.6.attention.wo.weight        : [4096, 4096]    : torch.bfloat16
+  59 :   58720256 : layers.6.feed_forward.w1.weight     : [14336, 4096]   : torch.bfloat16
+  60 :   58720256 : layers.6.feed_forward.w3.weight     : [14336, 4096]   : torch.bfloat16
+  61 :   58720256 : layers.6.feed_forward.w2.weight     : [4096, 14336]   : torch.bfloat16
+  62 :       4096 : layers.6.attention_norm.weight      : [4096]          : torch.bfloat16
+  63 :       4096 : layers.6.ffn_norm.weight            : [4096]          : torch.bfloat16
+  64 :   16777216 : layers.7.attention.wq.weight        : [4096, 4096]    : torch.bfloat16
+  65 :    4194304 : layers.7.attention.wk.weight        : [1024, 4096]    : torch.bfloat16
+  66 :    4194304 : layers.7.attention.wv.weight        : [1024, 4096]    : torch.bfloat16
+  67 :   16777216 : layers.7.attention.wo.weight        : [4096, 4096]    : torch.bfloat16
+  68 :   58720256 : layers.7.feed_forward.w1.weight     : [14336, 4096]   : torch.bfloat16
+  69 :   58720256 : layers.7.feed_forward.w3.weight     : [14336, 4096]   : torch.bfloat16
+  70 :   58720256 : layers.7.feed_forward.w2.weight     : [4096, 14336]   : torch.bfloat16
+  71 :       4096 : layers.7.attention_norm.weight      : [4096]          : torch.bfloat16
+  72 :       4096 : layers.7.ffn_norm.weight            : [4096]          : torch.bfloat16
+  73 :   16777216 : layers.8.attention.wq.weight        : [4096, 4096]    : torch.bfloat16
+  74 :    4194304 : layers.8.attention.wk.weight        : [1024, 4096]    : torch.bfloat16
+  75 :    4194304 : layers.8.attention.wv.weight        : [1024, 4096]    : torch.bfloat16
+  76 :   16777216 : layers.8.attention.wo.weight        : [4096, 4096]    : torch.bfloat16
+  77 :   58720256 : layers.8.feed_forward.w1.weight     : [14336, 4096]   : torch.bfloat16
+  78 :   58720256 : layers.8.feed_forward.w3.weight     : [14336, 4096]   : torch.bfloat16
+  79 :   58720256 : layers.8.feed_forward.w2.weight     : [4096, 14336]   : torch.bfloat16
+  80 :       4096 : layers.8.attention_norm.weight      : [4096]          : torch.bfloat16
+  81 :       4096 : layers.8.ffn_norm.weight            : [4096]          : torch.bfloat16
+  82 :   16777216 : layers.9.attention.wq.weight        : [4096, 4096]    : torch.bfloat16
+  83 :    4194304 : layers.9.attention.wk.weight        : [1024, 4096]    : torch.bfloat16
+  84 :    4194304 : layers.9.attention.wv.weight        : [1024, 4096]    : torch.bfloat16
+  85 :   16777216 : layers.9.attention.wo.weight        : [4096, 4096]    : torch.bfloat16
+  86 :   58720256 : layers.9.feed_forward.w1.weight     : [14336, 4096]   : torch.bfloat16
+  87 :   58720256 : layers.9.feed_forward.w3.weight     : [14336, 4096]   : torch.bfloat16
+  88 :   58720256 : layers.9.feed_forward.w2.weight     : [4096, 14336]   : torch.bfloat16
+  89 :       4096 : layers.9.attention_norm.weight      : [4096]          : torch.bfloat16
+  90 :       4096 : layers.9.ffn_norm.weight            : [4096]          : torch.bfloat16
+  91 :   16777216 : layers.10.attention.wq.weight       : [4096, 4096]    : torch.bfloat16
+  92 :    4194304 : layers.10.attention.wk.weight       : [1024, 4096]    : torch.bfloat16
+  93 :    4194304 : layers.10.attention.wv.weight       : [1024, 4096]    : torch.bfloat16
+  94 :   16777216 : layers.10.attention.wo.weight       : [4096, 4096]    : torch.bfloat16
+  95 :   58720256 : layers.10.feed_forward.w1.weight    : [14336, 4096]   : torch.bfloat16
+  96 :   58720256 : layers.10.feed_forward.w3.weight    : [14336, 4096]   : torch.bfloat16
+  97 :   58720256 : layers.10.feed_forward.w2.weight    : [4096, 14336]   : torch.bfloat16
+  98 :       4096 : layers.10.attention_norm.weight     : [4096]          : torch.bfloat16
+  99 :       4096 : layers.10.ffn_norm.weight           : [4096]          : torch.bfloat16
+ 100 :   16777216 : layers.11.attention.wq.weight       : [4096, 4096]    : torch.bfloat16
+ 101 :    4194304 : layers.11.attention.wk.weight       : [1024, 4096]    : torch.bfloat16
+ 102 :    4194304 : layers.11.attention.wv.weight       : [1024, 4096]    : torch.bfloat16
+ 103 :   16777216 : layers.11.attention.wo.weight       : [4096, 4096]    : torch.bfloat16
+ 104 :   58720256 : layers.11.feed_forward.w1.weight    : [14336, 4096]   : torch.bfloat16
+ 105 :   58720256 : layers.11.feed_forward.w3.weight    : [14336, 4096]   : torch.bfloat16
+ 106 :   58720256 : layers.11.feed_forward.w2.weight    : [4096, 14336]   : torch.bfloat16
+ 107 :       4096 : layers.11.attention_norm.weight     : [4096]          : torch.bfloat16
+ 108 :       4096 : layers.11.ffn_norm.weight           : [4096]          : torch.bfloat16
+ 109 :   16777216 : layers.12.attention.wq.weight       : [4096, 4096]    : torch.bfloat16
+ 110 :    4194304 : layers.12.attention.wk.weight       : [1024, 4096]    : torch.bfloat16
+ 111 :    4194304 : layers.12.attention.wv.weight       : [1024, 4096]    : torch.bfloat16
+ 112 :   16777216 : layers.12.attention.wo.weight       : [4096, 4096]    : torch.bfloat16
+ 113 :   58720256 : layers.12.feed_forward.w1.weight    : [14336, 4096]   : torch.bfloat16
+ 114 :   58720256 : layers.12.feed_forward.w3.weight    : [14336, 4096]   : torch.bfloat16
+ 115 :   58720256 : layers.12.feed_forward.w2.weight    : [4096, 14336]   : torch.bfloat16
+ 116 :       4096 : layers.12.attention_norm.weight     : [4096]          : torch.bfloat16
+ 117 :       4096 : layers.12.ffn_norm.weight           : [4096]          : torch.bfloat16
+ 118 :   16777216 : layers.13.attention.wq.weight       : [4096, 4096]    : torch.bfloat16
+ 119 :    4194304 : layers.13.attention.wk.weight       : [1024, 4096]    : torch.bfloat16
+ 120 :    4194304 : layers.13.attention.wv.weight       : [1024, 4096]    : torch.bfloat16
+ 121 :   16777216 : layers.13.attention.wo.weight       : [4096, 4096]    : torch.bfloat16
+ 122 :   58720256 : layers.13.feed_forward.w1.weight    : [14336, 4096]   : torch.bfloat16
+ 123 :   58720256 : layers.13.feed_forward.w3.weight    : [14336, 4096]   : torch.bfloat16
+ 124 :   58720256 : layers.13.feed_forward.w2.weight    : [4096, 14336]   : torch.bfloat16
+ 125 :       4096 : layers.13.attention_norm.weight     : [4096]          : torch.bfloat16
+ 126 :       4096 : layers.13.ffn_norm.weight           : [4096]          : torch.bfloat16
+ 127 :   16777216 : layers.14.attention.wq.weight       : [4096, 4096]    : torch.bfloat16
+ 128 :    4194304 : layers.14.attention.wk.weight       : [1024, 4096]    : torch.bfloat16
+ 129 :    4194304 : layers.14.attention.wv.weight       : [1024, 4096]    : torch.bfloat16
+ 130 :   16777216 : layers.14.attention.wo.weight       : [4096, 4096]    : torch.bfloat16
+ 131 :   58720256 : layers.14.feed_forward.w1.weight    : [14336, 4096]   : torch.bfloat16
+ 132 :   58720256 : layers.14.feed_forward.w3.weight    : [14336, 4096]   : torch.bfloat16
+ 133 :   58720256 : layers.14.feed_forward.w2.weight    : [4096, 14336]   : torch.bfloat16
+ 134 :       4096 : layers.14.attention_norm.weight     : [4096]          : torch.bfloat16
+ 135 :       4096 : layers.14.ffn_norm.weight           : [4096]          : torch.bfloat16
+ 136 :   16777216 : layers.15.attention.wq.weight       : [4096, 4096]    : torch.bfloat16
+ 137 :    4194304 : layers.15.attention.wk.weight       : [1024, 4096]    : torch.bfloat16
+ 138 :    4194304 : layers.15.attention.wv.weight       : [1024, 4096]    : torch.bfloat16
+ 139 :   16777216 : layers.15.attention.wo.weight       : [4096, 4096]    : torch.bfloat16
+ 140 :   58720256 : layers.15.feed_forward.w1.weight    : [14336, 4096]   : torch.bfloat16
+ 141 :   58720256 : layers.15.feed_forward.w3.weight    : [14336, 4096]   : torch.bfloat16
+ 142 :   58720256 : layers.15.feed_forward.w2.weight    : [4096, 14336]   : torch.bfloat16
+ 143 :       4096 : layers.15.attention_norm.weight     : [4096]          : torch.bfloat16
+ 144 :       4096 : layers.15.ffn_norm.weight           : [4096]          : torch.bfloat16
+ 145 :   16777216 : layers.16.attention.wq.weight       : [4096, 4096]    : torch.bfloat16
+ 146 :    4194304 : layers.16.attention.wk.weight       : [1024, 4096]    : torch.bfloat16
+ 147 :    4194304 : layers.16.attention.wv.weight       : [1024, 4096]    : torch.bfloat16
+ 148 :   16777216 : layers.16.attention.wo.weight       : [4096, 4096]    : torch.bfloat16
+ 149 :   58720256 : layers.16.feed_forward.w1.weight    : [14336, 4096]   : torch.bfloat16
+ 150 :   58720256 : layers.16.feed_forward.w3.weight    : [14336, 4096]   : torch.bfloat16
+ 151 :   58720256 : layers.16.feed_forward.w2.weight    : [4096, 14336]   : torch.bfloat16
+ 152 :       4096 : layers.16.attention_norm.weight     : [4096]          : torch.bfloat16
+ 153 :       4096 : layers.16.ffn_norm.weight           : [4096]          : torch.bfloat16
+ 154 :   16777216 : layers.17.attention.wq.weight       : [4096, 4096]    : torch.bfloat16
+ 155 :    4194304 : layers.17.attention.wk.weight       : [1024, 4096]    : torch.bfloat16
+ 156 :    4194304 : layers.17.attention.wv.weight       : [1024, 4096]    : torch.bfloat16
+ 157 :   16777216 : layers.17.attention.wo.weight       : [4096, 4096]    : torch.bfloat16
+ 158 :   58720256 : layers.17.feed_forward.w1.weight    : [14336, 4096]   : torch.bfloat16
+ 159 :   58720256 : layers.17.feed_forward.w3.weight    : [14336, 4096]   : torch.bfloat16
+ 160 :   58720256 : layers.17.feed_forward.w2.weight    : [4096, 14336]   : torch.bfloat16
+ 161 :       4096 : layers.17.attention_norm.weight     : [4096]          : torch.bfloat16
+ 162 :       4096 : layers.17.ffn_norm.weight           : [4096]          : torch.bfloat16
+ 163 :   16777216 : layers.18.attention.wq.weight       : [4096, 4096]    : torch.bfloat16
+ 164 :    4194304 : layers.18.attention.wk.weight       : [1024, 4096]    : torch.bfloat16
+ 165 :    4194304 : layers.18.attention.wv.weight       : [1024, 4096]    : torch.bfloat16
+ 166 :   16777216 : layers.18.attention.wo.weight       : [4096, 4096]    : torch.bfloat16
+ 167 :   58720256 : layers.18.feed_forward.w1.weight    : [14336, 4096]   : torch.bfloat16
+ 168 :   58720256 : layers.18.feed_forward.w3.weight    : [14336, 4096]   : torch.bfloat16
+ 169 :   58720256 : layers.18.feed_forward.w2.weight    : [4096, 14336]   : torch.bfloat16
+ 170 :       4096 : layers.18.attention_norm.weight     : [4096]          : torch.bfloat16
+ 171 :       4096 : layers.18.ffn_norm.weight           : [4096]          : torch.bfloat16
+ 172 :   16777216 : layers.19.attention.wq.weight       : [4096, 4096]    : torch.bfloat16
+ 173 :    4194304 : layers.19.attention.wk.weight       : [1024, 4096]    : torch.bfloat16
+ 174 :    4194304 : layers.19.attention.wv.weight       : [1024, 4096]    : torch.bfloat16
+ 175 :   16777216 : layers.19.attention.wo.weight       : [4096, 4096]    : torch.bfloat16
+ 176 :   58720256 : layers.19.feed_forward.w1.weight    : [14336, 4096]   : torch.bfloat16
+ 177 :   58720256 : layers.19.feed_forward.w3.weight    : [14336, 4096]   : torch.bfloat16
+ 178 :   58720256 : layers.19.feed_forward.w2.weight    : [4096, 14336]   : torch.bfloat16
+ 179 :       4096 : layers.19.attention_norm.weight     : [4096]          : torch.bfloat16
+ 180 :       4096 : layers.19.ffn_norm.weight           : [4096]          : torch.bfloat16
+ 181 :   16777216 : layers.20.attention.wq.weight       : [4096, 4096]    : torch.bfloat16
+ 182 :    4194304 : layers.20.attention.wk.weight       : [1024, 4096]    : torch.bfloat16
+ 183 :    4194304 : layers.20.attention.wv.weight       : [1024, 4096]    : torch.bfloat16
+ 184 :   16777216 : layers.20.attention.wo.weight       : [4096, 4096]    : torch.bfloat16
+ 185 :   58720256 : layers.20.feed_forward.w1.weight    : [14336, 4096]   : torch.bfloat16
+ 186 :   58720256 : layers.20.feed_forward.w3.weight    : [14336, 4096]   : torch.bfloat16
+ 187 :   58720256 : layers.20.feed_forward.w2.weight    : [4096, 14336]   : torch.bfloat16
+ 188 :       4096 : layers.20.attention_norm.weight     : [4096]          : torch.bfloat16
+ 189 :       4096 : layers.20.ffn_norm.weight           : [4096]          : torch.bfloat16
+ 190 :   16777216 : layers.21.attention.wq.weight       : [4096, 4096]    : torch.bfloat16
+ 191 :    4194304 : layers.21.attention.wk.weight       : [1024, 4096]    : torch.bfloat16
+ 192 :    4194304 : layers.21.attention.wv.weight       : [1024, 4096]    : torch.bfloat16
+ 193 :   16777216 : layers.21.attention.wo.weight       : [4096, 4096]    : torch.bfloat16
+ 194 :   58720256 : layers.21.feed_forward.w1.weight    : [14336, 4096]   : torch.bfloat16
+ 195 :   58720256 : layers.21.feed_forward.w3.weight    : [14336, 4096]   : torch.bfloat16
+ 196 :   58720256 : layers.21.feed_forward.w2.weight    : [4096, 14336]   : torch.bfloat16
+ 197 :       4096 : layers.21.attention_norm.weight     : [4096]          : torch.bfloat16
+ 198 :       4096 : layers.21.ffn_norm.weight           : [4096]          : torch.bfloat16
+ 199 :   16777216 : layers.22.attention.wq.weight       : [4096, 4096]    : torch.bfloat16
+ 200 :    4194304 : layers.22.attention.wk.weight       : [1024, 4096]    : torch.bfloat16
+ 201 :    4194304 : layers.22.attention.wv.weight       : [1024, 4096]    : torch.bfloat16
+ 202 :   16777216 : layers.22.attention.wo.weight       : [4096, 4096]    : torch.bfloat16
+ 203 :   58720256 : layers.22.feed_forward.w1.weight    : [14336, 4096]   : torch.bfloat16
+ 204 :   58720256 : layers.22.feed_forward.w3.weight    : [14336, 4096]   : torch.bfloat16
+ 205 :   58720256 : layers.22.feed_forward.w2.weight    : [4096, 14336]   : torch.bfloat16
+ 206 :       4096 : layers.22.attention_norm.weight     : [4096]          : torch.bfloat16
+ 207 :       4096 : layers.22.ffn_norm.weight           : [4096]          : torch.bfloat16
+ 208 :   16777216 : layers.23.attention.wq.weight       : [4096, 4096]    : torch.bfloat16
+ 209 :    4194304 : layers.23.attention.wk.weight       : [1024, 4096]    : torch.bfloat16
+ 210 :    4194304 : layers.23.attention.wv.weight       : [1024, 4096]    : torch.bfloat16
+ 211 :   16777216 : layers.23.attention.wo.weight       : [4096, 4096]    : torch.bfloat16
+ 212 :   58720256 : layers.23.feed_forward.w1.weight    : [14336, 4096]   : torch.bfloat16
+ 213 :   58720256 : layers.23.feed_forward.w3.weight    : [14336, 4096]   : torch.bfloat16
+ 214 :   58720256 : layers.23.feed_forward.w2.weight    : [4096, 14336]   : torch.bfloat16
+ 215 :       4096 : layers.23.attention_norm.weight     : [4096]          : torch.bfloat16
+ 216 :       4096 : layers.23.ffn_norm.weight           : [4096]          : torch.bfloat16
+ 217 :   16777216 : layers.24.attention.wq.weight       : [4096, 4096]    : torch.bfloat16
+ 218 :    4194304 : layers.24.attention.wk.weight       : [1024, 4096]    : torch.bfloat16
+ 219 :    4194304 : layers.24.attention.wv.weight       : [1024, 4096]    : torch.bfloat16
+ 220 :   16777216 : layers.24.attention.wo.weight       : [4096, 4096]    : torch.bfloat16
+ 221 :   58720256 : layers.24.feed_forward.w1.weight    : [14336, 4096]   : torch.bfloat16
+ 222 :   58720256 : layers.24.feed_forward.w3.weight    : [14336, 4096]   : torch.bfloat16
+ 223 :   58720256 : layers.24.feed_forward.w2.weight    : [4096, 14336]   : torch.bfloat16
+ 224 :       4096 : layers.24.attention_norm.weight     : [4096]          : torch.bfloat16
+ 225 :       4096 : layers.24.ffn_norm.weight           : [4096]          : torch.bfloat16
+ 226 :   16777216 : layers.25.attention.wq.weight       : [4096, 4096]    : torch.bfloat16
+ 227 :    4194304 : layers.25.attention.wk.weight       : [1024, 4096]    : torch.bfloat16
+ 228 :    4194304 : layers.25.attention.wv.weight       : [1024, 4096]    : torch.bfloat16
+ 229 :   16777216 : layers.25.attention.wo.weight       : [4096, 4096]    : torch.bfloat16
+ 230 :   58720256 : layers.25.feed_forward.w1.weight    : [14336, 4096]   : torch.bfloat16
+ 231 :   58720256 : layers.25.feed_forward.w3.weight    : [14336, 4096]   : torch.bfloat16
+ 232 :   58720256 : layers.25.feed_forward.w2.weight    : [4096, 14336]   : torch.bfloat16
+ 233 :       4096 : layers.25.attention_norm.weight     : [4096]          : torch.bfloat16
+ 234 :       4096 : layers.25.ffn_norm.weight           : [4096]          : torch.bfloat16
+ 235 :   16777216 : layers.26.attention.wq.weight       : [4096, 4096]    : torch.bfloat16
+ 236 :    4194304 : layers.26.attention.wk.weight       : [1024, 4096]    : torch.bfloat16
+ 237 :    4194304 : layers.26.attention.wv.weight       : [1024, 4096]    : torch.bfloat16
+ 238 :   16777216 : layers.26.attention.wo.weight       : [4096, 4096]    : torch.bfloat16
+ 239 :   58720256 : layers.26.feed_forward.w1.weight    : [14336, 4096]   : torch.bfloat16
+ 240 :   58720256 : layers.26.feed_forward.w3.weight    : [14336, 4096]   : torch.bfloat16
+ 241 :   58720256 : layers.26.feed_forward.w2.weight    : [4096, 14336]   : torch.bfloat16
+ 242 :       4096 : layers.26.attention_norm.weight     : [4096]          : torch.bfloat16
+ 243 :       4096 : layers.26.ffn_norm.weight           : [4096]          : torch.bfloat16
+ 244 :   16777216 : layers.27.attention.wq.weight       : [4096, 4096]    : torch.bfloat16
+ 245 :    4194304 : layers.27.attention.wk.weight       : [1024, 4096]    : torch.bfloat16
+ 246 :    4194304 : layers.27.attention.wv.weight       : [1024, 4096]    : torch.bfloat16
+ 247 :   16777216 : layers.27.attention.wo.weight       : [4096, 4096]    : torch.bfloat16
+ 248 :   58720256 : layers.27.feed_forward.w1.weight    : [14336, 4096]   : torch.bfloat16
+ 249 :   58720256 : layers.27.feed_forward.w3.weight    : [14336, 4096]   : torch.bfloat16
+ 250 :   58720256 : layers.27.feed_forward.w2.weight    : [4096, 14336]   : torch.bfloat16
+ 251 :       4096 : layers.27.attention_norm.weight     : [4096]          : torch.bfloat16
+ 252 :       4096 : layers.27.ffn_norm.weight           : [4096]          : torch.bfloat16
+ 253 :   16777216 : layers.28.attention.wq.weight       : [4096, 4096]    : torch.bfloat16
+ 254 :    4194304 : layers.28.attention.wk.weight       : [1024, 4096]    : torch.bfloat16
+ 255 :    4194304 : layers.28.attention.wv.weight       : [1024, 4096]    : torch.bfloat16
+ 256 :   16777216 : layers.28.attention.wo.weight       : [4096, 4096]    : torch.bfloat16
+ 257 :   58720256 : layers.28.feed_forward.w1.weight    : [14336, 4096]   : torch.bfloat16
+ 258 :   58720256 : layers.28.feed_forward.w3.weight    : [14336, 4096]   : torch.bfloat16
+ 259 :   58720256 : layers.28.feed_forward.w2.weight    : [4096, 14336]   : torch.bfloat16
+ 260 :       4096 : layers.28.attention_norm.weight     : [4096]          : torch.bfloat16
+ 261 :       4096 : layers.28.ffn_norm.weight           : [4096]          : torch.bfloat16
+ 262 :   16777216 : layers.29.attention.wq.weight       : [4096, 4096]    : torch.bfloat16
+ 263 :    4194304 : layers.29.attention.wk.weight       : [1024, 4096]    : torch.bfloat16
+ 264 :    4194304 : layers.29.attention.wv.weight       : [1024, 4096]    : torch.bfloat16
+ 265 :   16777216 : layers.29.attention.wo.weight       : [4096, 4096]    : torch.bfloat16
+ 266 :   58720256 : layers.29.feed_forward.w1.weight    : [14336, 4096]   : torch.bfloat16
+ 267 :   58720256 : layers.29.feed_forward.w3.weight    : [14336, 4096]   : torch.bfloat16
+ 268 :   58720256 : layers.29.feed_forward.w2.weight    : [4096, 14336]   : torch.bfloat16
+ 269 :       4096 : layers.29.attention_norm.weight     : [4096]          : torch.bfloat16
+ 270 :       4096 : layers.29.ffn_norm.weight           : [4096]          : torch.bfloat16
+ 271 :   16777216 : layers.30.attention.wq.weight       : [4096, 4096]    : torch.bfloat16
+ 272 :    4194304 : layers.30.attention.wk.weight       : [1024, 4096]    : torch.bfloat16
+ 273 :    4194304 : layers.30.attention.wv.weight       : [1024, 4096]    : torch.bfloat16
+ 274 :   16777216 : layers.30.attention.wo.weight       : [4096, 4096]    : torch.bfloat16
+ 275 :   58720256 : layers.30.feed_forward.w1.weight    : [14336, 4096]   : torch.bfloat16
+ 276 :   58720256 : layers.30.feed_forward.w3.weight    : [14336, 4096]   : torch.bfloat16
+ 277 :   58720256 : layers.30.feed_forward.w2.weight    : [4096, 14336]   : torch.bfloat16
+ 278 :       4096 : layers.30.attention_norm.weight     : [4096]          : torch.bfloat16
+ 279 :       4096 : layers.30.ffn_norm.weight           : [4096]          : torch.bfloat16
+ 280 :   16777216 : layers.31.attention.wq.weight       : [4096, 4096]    : torch.bfloat16
+ 281 :    4194304 : layers.31.attention.wk.weight       : [1024, 4096]    : torch.bfloat16
+ 282 :    4194304 : layers.31.attention.wv.weight       : [1024, 4096]    : torch.bfloat16
+ 283 :   16777216 : layers.31.attention.wo.weight       : [4096, 4096]    : torch.bfloat16
+ 284 :   58720256 : layers.31.feed_forward.w1.weight    : [14336, 4096]   : torch.bfloat16
+ 285 :   58720256 : layers.31.feed_forward.w3.weight    : [14336, 4096]   : torch.bfloat16
+ 286 :   58720256 : layers.31.feed_forward.w2.weight    : [4096, 14336]   : torch.bfloat16
+ 287 :       4096 : layers.31.attention_norm.weight     : [4096]          : torch.bfloat16
+ 288 :       4096 : layers.31.ffn_norm.weight           : [4096]          : torch.bfloat16
+ 289 :       4096 : norm.weight                         : [4096]          : torch.bfloat16
+ 290 :  525336576 : output.weight                       : [128256, 4096]  : torch.bfloat16
+Total number of parameters: 8030261248
+8.0303 B
+16060522496 Bytes
+14.9575 GB
