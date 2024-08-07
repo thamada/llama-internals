@@ -8,6 +8,7 @@ For more information about the modelQuery command, see: https://github.com/thama
 
 | model | log |
 | ----- | ----- |
+| [GPT-1](https://huggingface.co/openai-community/openai-gpt) | [./logs/gpt-1.log](./logs/gpt-1.log) |
 | [Llama-2-7B](https://huggingface.co/meta-llama/Llama-2-7b) | [./logs/llama-2-7b.log](./logs/llama-2-7b.log) |
 | [Llama-2-13B](https://huggingface.co/meta-llama/Llama-2-13b) | [./logs/llama-2-13b.log](./logs/llama-2-13b.log) |
 | [Llama-3-8B](https://huggingface.co/meta-llama/Meta-Llama-3-8B) | [./logs/llama-3-8b.log](logs/llama-3-8b.log) | 

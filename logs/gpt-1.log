@@ -1,0 +1,171 @@
+{'dim': 768, 'afn': 'gelu', 'architectures': ['OpenAIGPTLMHeadModel'], 'attn_pdrop': 0.1, 'embd_pdrop': 0.1, 'initializer_range': 0.02, 'layer_norm_epsilon': 1e-05, 'model_type': 'openai-gpt', 'n_ctx': 512, 'n_embd': 768, 'n_head': 12, 'n_layer': 12, 'n_positions': 512, 'n_special': 0, 'predict_special_tokens': True, 'resid_pdrop': 0.1, 'summary_activation': None, 'summary_first_dropout': 0.1, 'summary_proj_to_labels': True, 'summary_type': 'cls_index', 'summary_use_proj': True, 'task_specific_params': {'text-generation': {'do_sample': True, 'max_length': 50}}, 'vocab_size': 40478}
+000: /home/hamada/gpt-1/models--openai-community--openai-gpt/snapshots/original/consolidated.00.pth
+
+-----------------------------------------------------------------------------
+0 params in total.
+0 bytes in total.
+-----------------------------------------------------------------------------
+
+[1/1]: Loading /home/hamada/gpt-1/models--openai-community--openai-gpt/snapshots/original/consolidated.00.pth
+   0 :   31087104 : tokens_embed.weight                 : [40478, 768]    : torch.float32
+   1 :     393216 : positions_embed.weight              : [512, 768]      : torch.float32
+   2 :     262144 : h.0.attn.bias                       : [1, 1, 512, 512] : torch.float32
+   3 :    1769472 : h.0.attn.c_attn.weight              : [768, 2304]     : torch.float32
+   4 :       2304 : h.0.attn.c_attn.bias                : [2304]          : torch.float32
+   5 :     589824 : h.0.attn.c_proj.weight              : [768, 768]      : torch.float32
+   6 :        768 : h.0.attn.c_proj.bias                : [768]           : torch.float32
+   7 :        768 : h.0.ln_1.weight                     : [768]           : torch.float32
+   8 :        768 : h.0.ln_1.bias                       : [768]           : torch.float32
+   9 :    2359296 : h.0.mlp.c_fc.weight                 : [768, 3072]     : torch.float32
+  10 :       3072 : h.0.mlp.c_fc.bias                   : [3072]          : torch.float32
+  11 :    2359296 : h.0.mlp.c_proj.weight               : [3072, 768]     : torch.float32
+  12 :        768 : h.0.mlp.c_proj.bias                 : [768]           : torch.float32
+  13 :        768 : h.0.ln_2.weight                     : [768]           : torch.float32
+  14 :        768 : h.0.ln_2.bias                       : [768]           : torch.float32
+  15 :     262144 : h.1.attn.bias                       : [1, 1, 512, 512] : torch.float32
+  16 :    1769472 : h.1.attn.c_attn.weight              : [768, 2304]     : torch.float32
+  17 :       2304 : h.1.attn.c_attn.bias                : [2304]          : torch.float32
+  18 :     589824 : h.1.attn.c_proj.weight              : [768, 768]      : torch.float32
+  19 :        768 : h.1.attn.c_proj.bias                : [768]           : torch.float32
+  20 :        768 : h.1.ln_1.weight                     : [768]           : torch.float32
+  21 :        768 : h.1.ln_1.bias                       : [768]           : torch.float32
+  22 :    2359296 : h.1.mlp.c_fc.weight                 : [768, 3072]     : torch.float32
+  23 :       3072 : h.1.mlp.c_fc.bias                   : [3072]          : torch.float32
+  24 :    2359296 : h.1.mlp.c_proj.weight               : [3072, 768]     : torch.float32
+  25 :        768 : h.1.mlp.c_proj.bias                 : [768]           : torch.float32
+  26 :        768 : h.1.ln_2.weight                     : [768]           : torch.float32
+  27 :        768 : h.1.ln_2.bias                       : [768]           : torch.float32
+  28 :     262144 : h.2.attn.bias                       : [1, 1, 512, 512] : torch.float32
+  29 :    1769472 : h.2.attn.c_attn.weight              : [768, 2304]     : torch.float32
+  30 :       2304 : h.2.attn.c_attn.bias                : [2304]          : torch.float32
+  31 :     589824 : h.2.attn.c_proj.weight              : [768, 768]      : torch.float32
+  32 :        768 : h.2.attn.c_proj.bias                : [768]           : torch.float32
+  33 :        768 : h.2.ln_1.weight                     : [768]           : torch.float32
+  34 :        768 : h.2.ln_1.bias                       : [768]           : torch.float32
+  35 :    2359296 : h.2.mlp.c_fc.weight                 : [768, 3072]     : torch.float32
+  36 :       3072 : h.2.mlp.c_fc.bias                   : [3072]          : torch.float32
+  37 :    2359296 : h.2.mlp.c_proj.weight               : [3072, 768]     : torch.float32
+  38 :        768 : h.2.mlp.c_proj.bias                 : [768]           : torch.float32
+  39 :        768 : h.2.ln_2.weight                     : [768]           : torch.float32
+  40 :        768 : h.2.ln_2.bias                       : [768]           : torch.float32
+  41 :     262144 : h.3.attn.bias                       : [1, 1, 512, 512] : torch.float32
+  42 :    1769472 : h.3.attn.c_attn.weight              : [768, 2304]     : torch.float32
+  43 :       2304 : h.3.attn.c_attn.bias                : [2304]          : torch.float32
+  44 :     589824 : h.3.attn.c_proj.weight              : [768, 768]      : torch.float32
+  45 :        768 : h.3.attn.c_proj.bias                : [768]           : torch.float32
+  46 :        768 : h.3.ln_1.weight                     : [768]           : torch.float32
+  47 :        768 : h.3.ln_1.bias                       : [768]           : torch.float32
+  48 :    2359296 : h.3.mlp.c_fc.weight                 : [768, 3072]     : torch.float32
+  49 :       3072 : h.3.mlp.c_fc.bias                   : [3072]          : torch.float32
+  50 :    2359296 : h.3.mlp.c_proj.weight               : [3072, 768]     : torch.float32
+  51 :        768 : h.3.mlp.c_proj.bias                 : [768]           : torch.float32
+  52 :        768 : h.3.ln_2.weight                     : [768]           : torch.float32
+  53 :        768 : h.3.ln_2.bias                       : [768]           : torch.float32
+  54 :     262144 : h.4.attn.bias                       : [1, 1, 512, 512] : torch.float32
+  55 :    1769472 : h.4.attn.c_attn.weight              : [768, 2304]     : torch.float32
+  56 :       2304 : h.4.attn.c_attn.bias                : [2304]          : torch.float32
+  57 :     589824 : h.4.attn.c_proj.weight              : [768, 768]      : torch.float32
+  58 :        768 : h.4.attn.c_proj.bias                : [768]           : torch.float32
+  59 :        768 : h.4.ln_1.weight                     : [768]           : torch.float32
+  60 :        768 : h.4.ln_1.bias                       : [768]           : torch.float32
+  61 :    2359296 : h.4.mlp.c_fc.weight                 : [768, 3072]     : torch.float32
+  62 :       3072 : h.4.mlp.c_fc.bias                   : [3072]          : torch.float32
+  63 :    2359296 : h.4.mlp.c_proj.weight               : [3072, 768]     : torch.float32
+  64 :        768 : h.4.mlp.c_proj.bias                 : [768]           : torch.float32
+  65 :        768 : h.4.ln_2.weight                     : [768]           : torch.float32
+  66 :        768 : h.4.ln_2.bias                       : [768]           : torch.float32
+  67 :     262144 : h.5.attn.bias                       : [1, 1, 512, 512] : torch.float32
+  68 :    1769472 : h.5.attn.c_attn.weight              : [768, 2304]     : torch.float32
+  69 :       2304 : h.5.attn.c_attn.bias                : [2304]          : torch.float32
+  70 :     589824 : h.5.attn.c_proj.weight              : [768, 768]      : torch.float32
+  71 :        768 : h.5.attn.c_proj.bias                : [768]           : torch.float32
+  72 :        768 : h.5.ln_1.weight                     : [768]           : torch.float32
+  73 :        768 : h.5.ln_1.bias                       : [768]           : torch.float32
+  74 :    2359296 : h.5.mlp.c_fc.weight                 : [768, 3072]     : torch.float32
+  75 :       3072 : h.5.mlp.c_fc.bias                   : [3072]          : torch.float32
+  76 :    2359296 : h.5.mlp.c_proj.weight               : [3072, 768]     : torch.float32
+  77 :        768 : h.5.mlp.c_proj.bias                 : [768]           : torch.float32
+  78 :        768 : h.5.ln_2.weight                     : [768]           : torch.float32
+  79 :        768 : h.5.ln_2.bias                       : [768]           : torch.float32
+  80 :     262144 : h.6.attn.bias                       : [1, 1, 512, 512] : torch.float32
+  81 :    1769472 : h.6.attn.c_attn.weight              : [768, 2304]     : torch.float32
+  82 :       2304 : h.6.attn.c_attn.bias                : [2304]          : torch.float32
+  83 :     589824 : h.6.attn.c_proj.weight              : [768, 768]      : torch.float32
+  84 :        768 : h.6.attn.c_proj.bias                : [768]           : torch.float32
+  85 :        768 : h.6.ln_1.weight                     : [768]           : torch.float32
+  86 :        768 : h.6.ln_1.bias                       : [768]           : torch.float32
+  87 :    2359296 : h.6.mlp.c_fc.weight                 : [768, 3072]     : torch.float32
+  88 :       3072 : h.6.mlp.c_fc.bias                   : [3072]          : torch.float32
+  89 :    2359296 : h.6.mlp.c_proj.weight               : [3072, 768]     : torch.float32
+  90 :        768 : h.6.mlp.c_proj.bias                 : [768]           : torch.float32
+  91 :        768 : h.6.ln_2.weight                     : [768]           : torch.float32
+  92 :        768 : h.6.ln_2.bias                       : [768]           : torch.float32
+  93 :     262144 : h.7.attn.bias                       : [1, 1, 512, 512] : torch.float32
+  94 :    1769472 : h.7.attn.c_attn.weight              : [768, 2304]     : torch.float32
+  95 :       2304 : h.7.attn.c_attn.bias                : [2304]          : torch.float32
+  96 :     589824 : h.7.attn.c_proj.weight              : [768, 768]      : torch.float32
+  97 :        768 : h.7.attn.c_proj.bias                : [768]           : torch.float32
+  98 :        768 : h.7.ln_1.weight                     : [768]           : torch.float32
+  99 :        768 : h.7.ln_1.bias                       : [768]           : torch.float32
+ 100 :    2359296 : h.7.mlp.c_fc.weight                 : [768, 3072]     : torch.float32
+ 101 :       3072 : h.7.mlp.c_fc.bias                   : [3072]          : torch.float32
+ 102 :    2359296 : h.7.mlp.c_proj.weight               : [3072, 768]     : torch.float32
+ 103 :        768 : h.7.mlp.c_proj.bias                 : [768]           : torch.float32
+ 104 :        768 : h.7.ln_2.weight                     : [768]           : torch.float32
+ 105 :        768 : h.7.ln_2.bias                       : [768]           : torch.float32
+ 106 :     262144 : h.8.attn.bias                       : [1, 1, 512, 512] : torch.float32
+ 107 :    1769472 : h.8.attn.c_attn.weight              : [768, 2304]     : torch.float32
+ 108 :       2304 : h.8.attn.c_attn.bias                : [2304]          : torch.float32
+ 109 :     589824 : h.8.attn.c_proj.weight              : [768, 768]      : torch.float32
+ 110 :        768 : h.8.attn.c_proj.bias                : [768]           : torch.float32
+ 111 :        768 : h.8.ln_1.weight                     : [768]           : torch.float32
+ 112 :        768 : h.8.ln_1.bias                       : [768]           : torch.float32
+ 113 :    2359296 : h.8.mlp.c_fc.weight                 : [768, 3072]     : torch.float32
+ 114 :       3072 : h.8.mlp.c_fc.bias                   : [3072]          : torch.float32
+ 115 :    2359296 : h.8.mlp.c_proj.weight               : [3072, 768]     : torch.float32
+ 116 :        768 : h.8.mlp.c_proj.bias                 : [768]           : torch.float32
+ 117 :        768 : h.8.ln_2.weight                     : [768]           : torch.float32
+ 118 :        768 : h.8.ln_2.bias                       : [768]           : torch.float32
+ 119 :     262144 : h.9.attn.bias                       : [1, 1, 512, 512] : torch.float32
+ 120 :    1769472 : h.9.attn.c_attn.weight              : [768, 2304]     : torch.float32
+ 121 :       2304 : h.9.attn.c_attn.bias                : [2304]          : torch.float32
+ 122 :     589824 : h.9.attn.c_proj.weight              : [768, 768]      : torch.float32
+ 123 :        768 : h.9.attn.c_proj.bias                : [768]           : torch.float32
+ 124 :        768 : h.9.ln_1.weight                     : [768]           : torch.float32
+ 125 :        768 : h.9.ln_1.bias                       : [768]           : torch.float32
+ 126 :    2359296 : h.9.mlp.c_fc.weight                 : [768, 3072]     : torch.float32
+ 127 :       3072 : h.9.mlp.c_fc.bias                   : [3072]          : torch.float32
+ 128 :    2359296 : h.9.mlp.c_proj.weight               : [3072, 768]     : torch.float32
+ 129 :        768 : h.9.mlp.c_proj.bias                 : [768]           : torch.float32
+ 130 :        768 : h.9.ln_2.weight                     : [768]           : torch.float32
+ 131 :        768 : h.9.ln_2.bias                       : [768]           : torch.float32
+ 132 :     262144 : h.10.attn.bias                      : [1, 1, 512, 512] : torch.float32
+ 133 :    1769472 : h.10.attn.c_attn.weight             : [768, 2304]     : torch.float32
+ 134 :       2304 : h.10.attn.c_attn.bias               : [2304]          : torch.float32
+ 135 :     589824 : h.10.attn.c_proj.weight             : [768, 768]      : torch.float32
+ 136 :        768 : h.10.attn.c_proj.bias               : [768]           : torch.float32
+ 137 :        768 : h.10.ln_1.weight                    : [768]           : torch.float32
+ 138 :        768 : h.10.ln_1.bias                      : [768]           : torch.float32
+ 139 :    2359296 : h.10.mlp.c_fc.weight                : [768, 3072]     : torch.float32
+ 140 :       3072 : h.10.mlp.c_fc.bias                  : [3072]          : torch.float32
+ 141 :    2359296 : h.10.mlp.c_proj.weight              : [3072, 768]     : torch.float32
+ 142 :        768 : h.10.mlp.c_proj.bias                : [768]           : torch.float32
+ 143 :        768 : h.10.ln_2.weight                    : [768]           : torch.float32
+ 144 :        768 : h.10.ln_2.bias                      : [768]           : torch.float32
+ 145 :     262144 : h.11.attn.bias                      : [1, 1, 512, 512] : torch.float32
+ 146 :    1769472 : h.11.attn.c_attn.weight             : [768, 2304]     : torch.float32
+ 147 :       2304 : h.11.attn.c_attn.bias               : [2304]          : torch.float32
+ 148 :     589824 : h.11.attn.c_proj.weight             : [768, 768]      : torch.float32
+ 149 :        768 : h.11.attn.c_proj.bias               : [768]           : torch.float32
+ 150 :        768 : h.11.ln_1.weight                    : [768]           : torch.float32
+ 151 :        768 : h.11.ln_1.bias                      : [768]           : torch.float32
+ 152 :    2359296 : h.11.mlp.c_fc.weight                : [768, 3072]     : torch.float32
+ 153 :       3072 : h.11.mlp.c_fc.bias                  : [3072]          : torch.float32
+ 154 :    2359296 : h.11.mlp.c_proj.weight              : [3072, 768]     : torch.float32
+ 155 :        768 : h.11.mlp.c_proj.bias                : [768]           : torch.float32
+ 156 :        768 : h.11.ln_2.weight                    : [768]           : torch.float32
+ 157 :        768 : h.11.ln_2.bias                      : [768]           : torch.float32
+Total number of parameters: 119680512
+0.1197 B
+478722048 Bytes
+0.4458 GB
