@@ -9,6 +9,7 @@ For more information about the modelQuery command, see: https://github.com/thama
 | model | log |
 | ----- | ----- |
 | [Llama-3-8B](https://huggingface.co/meta-llama/Meta-Llama-3-8B) | [./logs/llama-3-8b.log](logs/llama-3-8b.log) | 
+| [Llama-3-8B-Instruct](https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct) | [./logs/llama-3-8b-inst.log](logs/llama-3-8b-inst.log) | 
 | [Llama-3.1-8B](https://huggingface.co/meta-llama/Meta-Llama-3.1-8B) | [./logs/llama-3.1-8b.log](./logs/llama-3.1-8b.log) |
 | [Llama-2-13B](https://huggingface.co/meta-llama/Llama-2-13b) | [x](x) |
 | [Llama-3-70B-Instruct](https://huggingface.co/meta-llama/Meta-Llama-3-70B-Instruct)     | [./logs/llama-3-70b-inst.log](./logs/llama-3-70b-inst.log) |
